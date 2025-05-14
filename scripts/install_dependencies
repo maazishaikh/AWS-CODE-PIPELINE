@@ -8,7 +8,7 @@ TOMCAT_VERSION=9.0.105
 # Tar file name
 TOMCAT9_CORE_TAR_FILENAME="apache-tomcat-$TOMCAT_VERSION.tar.gz"
 # Download URL for Tomcat7 core
-TOMCAT9_CORE_DOWNLOAD_URL=wget "http;//mirror.olnevhost.net/pub/apache/tomcat/tomcat-9/v$TOMCAT_VERSION/bin/$TOMCAT9_CORE_TAR_FILENAME"
+TOMCAT9_CORE_DOWNLOAD_URL=wget "http://mirror.olnevhost.net/pub/apache/tomcat/tomcat-9/v$TOMCAT_VERSION/bin/$TOMCAT9_CORE_TAR_FILENAME"
 # The top-level directory after unpacking the tar file
 TOMCAT9_CORE_UNPACKED_DIRNAME="apache-tomcat-$TOMCAT_VERSION"
 
