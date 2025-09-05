@@ -3,7 +3,7 @@
 set -e
 
 CATALINA_HOME=/usr/share/tomcat9-codedeploy
-TOMCAT_VERSION=9.0.109-deployer
+TOMCAT_VERSION=9.0.109
 
 # Tar file name
 TOMCAT9_CORE_TAR_FILENAME="apache-tomcat-$TOMCAT_VERSION.tar.gz"
@@ -11,7 +11,6 @@ TOMCAT9_CORE_TAR_FILENAME="apache-tomcat-$TOMCAT_VERSION.tar.gz"
 TOMCAT9_CORE_DOWNLOAD_URL= sudo wget "https://dlcdn.apache.org/tomcat/tomcat-9/v$TOMCAT_VERSION/bin/$TOMCAT9_CORE_TAR_FILENAME"
 # The top-level directory after unpacking the tar file
 TOMCAT9_CORE_UNPACKED_DIRNAME="apache-tomcat-$TOMCAT_VERSION"
-
 
 # Check whether there exists a valid instance
 # of Tomcat9 installed at the specified directory
